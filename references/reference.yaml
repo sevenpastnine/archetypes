@@ -1,0 +1,8 @@
+# generic reference
+# WWe probably need such a container to group all possible references like papers, books, posters,...
+# However, how do we make clear that only one alternative should be used
+# Specific reference archetypes could be extracted from reference management software or pubmed
+
+reference:
+    paper: paper
+    talk: talk # corresponding achetype needs to be defined

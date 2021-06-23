@@ -3,7 +3,10 @@ protocol:
     name: string
     title: string
     steps: containerOfStep
+    identifiers:
+        dio: string
     
+    created: date
     licenses: containerOfLicense
     references: containerOfReference
     contributers: containerOfContributer
