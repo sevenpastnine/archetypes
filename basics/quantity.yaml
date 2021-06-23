@@ -1,0 +1,6 @@
+# Quantities - a value with units and potentially a modifier like < or >
+quantity:
+    endpoint: string
+    value: number
+    unit: string
+    modifier: string # optional

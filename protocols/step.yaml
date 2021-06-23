@@ -1,0 +1,15 @@
+# protocol step
+step:
+    name: string
+    instruments: containerOfInstrument
+
+    material: containerOfChemical
+    solvent: containerOfChemical
+    additives: containerOfChemical
+    reactants: containerOfChemical
+
+    time: quantity
+    temperature: quantity
+    conditions: containerOfQuantity
+
+    description: string 

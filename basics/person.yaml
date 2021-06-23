@@ -1,0 +1,7 @@
+# person
+person:
+    firstName: string
+    middleNames: containerOfString
+    lastName: string
+    email: string
+    institutions: containerOfInstitution # refers to archetype institution.yaml

@@ -1,0 +1,9 @@
+#protocol
+protocol:
+    name: string
+    title: string
+    steps: containerOfStep
+    
+    licenses: containerOfLicense
+    references: containerOfReference
+    contributers: containerOfContributer

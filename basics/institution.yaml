@@ -1,0 +1,11 @@
+# person
+institution: 
+    name: string
+    nameAbreviation: string
+    department: string
+    departmentAbreviation: string
+    street: string
+    city: string
+    zip: string
+    state: string
+    country: string

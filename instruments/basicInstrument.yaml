@@ -1,0 +1,6 @@
+# instrument
+instrument:
+    name: string
+    type: string
+    manufacturer: institution # reference to archetype institution.yaml
+    model: string

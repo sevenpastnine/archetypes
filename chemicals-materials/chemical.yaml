@@ -1,0 +1,25 @@
+# small chemical, solvent, ... 
+# and materials if not needing a special archetype
+chemical:
+    constitution: string
+    source:
+        manufacturer: institution
+        catalogNo: string
+        batchNo: string
+        orderNo: string
+    identifiers:
+        InChI: string
+        SMILES: string
+        CAS: string
+    properties:
+        form: string
+        purity: quantity
+        concentration: quantity
+        solvent: chemical
+    storage:
+        container: string
+        place: string
+        temperature: quantity
+    amount: 
+        volume: quantity
+        mass: quantity

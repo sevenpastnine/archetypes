@@ -1,0 +1,15 @@
+# reference to a paper
+paper:
+    doi: DOI
+    type: string
+    PubMedID: string
+    title: string
+    journal: string
+    year: integer
+    volume: integer
+    issue: integer
+    startingPage: integer
+    endPage: integer
+    authors: containerOfPerson
+    keywords: containerOfString
+    abstact: string
