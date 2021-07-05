@@ -1,0 +1,8 @@
+#Archetype for model entity used in section 2 of MODA template
+modelEntity:
+    material: string # atoms
+    dna: string # n.a.
+    protein: string # n.a.
+    lipid: string # n.a.
+    smallEntities: string # atoms
+    solvent: string # atoms

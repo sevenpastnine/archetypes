@@ -1,0 +1,4 @@
+#Archetype for model physics and chemistry equation used in section 2 of MODA template
+modelPhysics:
+    equations: containerOfEquation # is there a way to describe this or reference/image?
+    physicalQuantities: containerOfStrings # [coordinates, velocities, pair-wise potential, biased potential]

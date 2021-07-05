@@ -1,0 +1,9 @@
+#Archetype for numerical solver for atomistic MD simulation
+numericalSolver:
+    algorithm: string #Verlet
+    ensemble:
+        type: string # NVT (canocial)
+        thermostat: string # v-rescale
+        barostat: string # n.a.
+        
+            

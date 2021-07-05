@@ -1,0 +1,12 @@
+#Archetype for material relations used in section 2 of MODA template
+materialRelations:
+    equations: # perhaps better "forceField"?
+        material: string # user-defined FF
+        dna: string # n.a.
+        protein: string # n.a.
+        lipid: string # n.a.
+        smallEntities: string # GAFF
+        solvent: string # TIP3P
+    physicalQuantities: 
+        forceFieldParameters: containerOfString # [charge, Lennard-Jones parameters, bond length, bond angle, dihedral angle]
+        biasPotential: string

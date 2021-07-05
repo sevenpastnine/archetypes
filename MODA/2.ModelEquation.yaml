@@ -1,0 +1,11 @@
+#Archetype representing section 3 of MODA template
+modelEquation:
+    type: string # metadynamics
+    name: string # Molecular dynamics with self-adjusted bias
+
+    modelEntity: modelEntity
+    modelPhysics: modelPhysics
+    materialsRelations: materialRelations
+    simulationInput: simulationInput
+    publications: containerOfReference
+

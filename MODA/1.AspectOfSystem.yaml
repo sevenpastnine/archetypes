@@ -1,0 +1,12 @@
+#Archetype representing section 1 of MODA template
+aspectOfSystem:
+    userCase: string # Simulation box with material surface, sorbent and solvent
+    material: containerOfChemical # or perhaps just containerOfString
+    geometry:
+        type: string # rectangular box or molecule or ...
+        boundaryConditions: string # 3D or isolated
+    timeLapse: 
+        totalTime: quantity # if specific time is specified
+        timeDescription: string # e.g. thermodynamic limit for time to be selected during simulation
+    manufacturingProcess: protocol
+    publication: containerOfReference 

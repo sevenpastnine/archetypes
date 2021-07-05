@@ -1,0 +1,6 @@
+# Archetype to describe information taken from literature or a database
+referencedInformation:
+    value: quantity
+    quote: string # probably better name needed since this might also just be a reference for a specific term like "LJ" or "GAFF"
+    publication: reference
+    dataEntry: string # unique identifier to database entry

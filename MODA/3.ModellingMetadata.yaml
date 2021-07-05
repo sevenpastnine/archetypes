@@ -1,0 +1,8 @@
+#Archetype representing section 3 of MODA template
+modellingMetadata:
+    numercialSolver: numericalSolver
+    softwareTool: softwareTool
+    timeStep: quantity # or containerOfQuantity to allow mutiple time steps in multiscale simulations
+    computationalRepresentation: computationalRepresentation
+    computationalBoundaryConditions: computationalBoundaryConditions
+    additionalSolverParameters: additionalSolverParameters
