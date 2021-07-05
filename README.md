@@ -8,7 +8,7 @@ It is meant as a starting point by providing an easy way to specify the data mod
 3) to add more advanced features for data management, semantic annotation and FAIR sharing
 4) to guide the ontology development with respect to the needed terminology but also to build relationships between the terms for generating an ontology-driven pre-reasoning capacity for the datasets.
 
-Some hopefully easy steps for supporting this collection of achetypes:
+### Some hopefully easy steps for supporting this collection of achetypes:
 1) Use examples of existing metadata files from your work (your own data capturing templates, MODA templates, or just material and methods from your papers)
 2) Extract major information and group them in logical units - start from the defined units if existing (e.g. for MODA and CHADA)
 3) If possible, translate these values and the structure into a yaml file - it is really a quite simple format (this is the first tutorial I found: https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) and good editors exist checking the correctness of the format - please only use the simple features (no references or something like this).
@@ -41,6 +41,6 @@ Some hopefully easy steps for supporting this collection of achetypes:
     c) or clone the repository, create a new branch and send us a pull request so that we can check and include the changes in the master branch.
 
 
-Open questions:
+### Open questions:
 1) How do we treat general archetypes, which needs to then be replaced by more specific ones? For example: general reference --> paper (with specific fields like issue and page numbers not included in references like talks and posters)
 2) Should we allow to mark mandatory information?
