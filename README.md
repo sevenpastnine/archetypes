@@ -15,6 +15,7 @@ Some hopefully easy steps for supporting this collection of achetypes:
 4) Look at existing archetypes and reuse them whenever possible.
 5) Stop at the level of detail from when on existing archetypes can be used - e.g. references don't have to be completely specified since we know what is needed to define them.
 6) Transfer the collected data into a archetype specification - make a copy of your metadata file you created in 3) and replace the values with variable types.
+
     a) Basic variables like strings and numbers can directly be specified but please use the archetype "quantity" whenever you specifiy a value which has a unit.
     b) Subsections needing a lot of information should be placed in a separate file defining a new archetype - this should also be done if the structure can be reused starting from quantities as just a combination of value and unit.
     c) Resused archetypes are just given by their name and the corresponding yaml file should exist.
@@ -22,10 +23,12 @@ Some hopefully easy steps for supporting this collection of achetypes:
 7) If you see need to extend more basic archetypes, go ahead and add the needed felds.
 8) If there is already an achetype for a specific logical unit and you disagree with its layout, define an alternative archetype - everything here are just proposals and after we have more examples, we can then still try to harmonise.
 9) When templates are created from the archetypes, it is not expected that everyone will fill in every field.
+
     a) This allows to have alternative fields in the archetype.
     b) The use case of the archetype will then determine what values are important - e.g. mass or volumne can be specified for the amount of a chemical used.
     c) Please decide how large the changes of an existing archetype have to be to fulfil your needs - based on this, use alternative archetype definitions (point 8) or add alternative fields in the existing archetype (this point 9)
 10) We appriciate any form of help:
+
     a) Send us the structure of your data model separated in archetypes as hand drawing, spreadsheet or document
     b) Create yaml files and send them to us with some description.
     c) Clone the repository, create a new branch and send us a pull request so that we can check and include the changes in the master branch.
