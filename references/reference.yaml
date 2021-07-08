@@ -4,5 +4,9 @@
 # Specific reference archetypes could be extracted from reference management software or pubmed
 
 reference:
-    paper: paper
-    talk: talk # corresponding achetype needs to be defined
+    article: article # http://purl.org/ontology/bibo/Article - Article
+    oralPresentation: oralPresentation # 
+    conferencePoster: conferencePoster # http://vivoweb.org/ontology/core#ConferencePoster - Conference Poster
+    blogPost: blogPost # http://vivoweb.org/ontology/core#BlogPosting
+    book: book # http://purl.org/ontology/bibo/Book
+    proceedings: proceedings # http://purl.org/ontology/bibo/Proceedings

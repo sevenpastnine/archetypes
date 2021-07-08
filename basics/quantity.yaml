@@ -1,6 +1,6 @@
 # Quantities - a value with units and potentially a modifier like < or >
-quantity:
-    endpoint: string
-    value: number
-    unit: string
-    modifier: string # optional
+quantity: # http://semanticscience.org/resource/SIO_000052 - Quantity
+    endpoint: string # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42614 - Name
+    value: number # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712 - Value
+    unit: string # http://purl.obolibrary.org/obo/UO_0000000 - Unit
+    modifier: string # http://purl.obolibrary.org/obo/HIO_0000388 - Modifier

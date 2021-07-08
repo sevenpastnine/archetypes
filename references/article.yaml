@@ -1,0 +1,17 @@
+# reference to a paper
+article: # http://purl.org/ontology/bibo/Article - Article
+    doi: DOI # http://purl.obolibrary.org/obo/OBI_0002110 - Digital Object Identifier
+    type: string # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25284 - Type
+    PubMedID: string # http://semanticscience.org/resource/CHEMINF_000302 - PubMed Identifier
+    title: string # http://dicom.nema.org/resources/ontology/DCM/121144 - Document Title
+    journal: string # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40976 - Journal
+    year: integer # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C29848 - Year
+    volume: integer # http://purl.org/spar/fabio/JournalVolume - Journal Volume
+    issue: integer # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43415 - Issue
+    pages: # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42783 - Page
+        start: integer # http://purl.bioontology.org/ontology/LNC/LP190656-1 - Start
+        end: integer # http://purl.bioontology.org/ontology/LNC/LP190655-3 - End
+        count: integer # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25463 - Count
+    authors: containerOfPerson # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42781 - Author
+    keywords: containerOfString # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43513 - Keyword
+    abstact: string # http://edamontology.org/data_2849 - Abstract

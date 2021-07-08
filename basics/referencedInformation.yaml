@@ -1,6 +1,11 @@
 # Archetype to describe information taken from literature or a database
-referencedInformation:
-    value: quantity
-    quote: string # probably better name needed since this might also just be a reference for a specific term like "LJ" or "GAFF"
-    publication: reference
-    dataEntry: string # unique identifier to database entry
+referencedInformation: # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48294 - Referenced Object
+    value: quantity # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25712 - Value
+    quote: string # http://semanticscience.org/resource/SIO_000299 - Quote
+    # probably better name needed since this might also just be a reference for a specific term like "LJ" or "GAFF"
+    citation: reference # http://edamontology.org/data_0970
+    
+    # unique identifier to database entry
+    dataEntry: # http://semanticscience.org/resource/SIO_000756 - Database entry
+        databaseName: string # http://edamontology.org/data_1056 - Database name
+        uniqueIdentifier: string # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70663   
